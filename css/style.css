@@ -146,8 +146,7 @@ main {
 }
 .onhover-open {
   position: absolute;
-  left: 50%;
-  transform: translate(-50%, -20px);
+  left: -30px;
   opacity: 0;
   visibility: hidden;
   transition: all 0.3s ease-in-out;
@@ -311,7 +310,7 @@ main {
 .profile-wrap {
   width: 200px;
   background: var(--color-5);
-  top: 3.5rem;
+  top: 50px;
   border-radius: 0.4rem;
   box-shadow: var(--shadow-xl);
   padding: 1rem;
@@ -738,6 +737,34 @@ main {
   font-weight: 700;
   letter-spacing: 1px;
   text-align: center;
+}
+
+.new-products-wrap {
+  margin: 40px;
+}
+.new-product-box {
+  max-width: 1300px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+.new-product-img {
+  width: 400px;
+  height: 300px;
+  border-radius: 5px 30px;
+  overflow: hidden;
+  box-shadow: var(--shadow-lg);
+}
+.new-product-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: all 0.5s ease-in;
+}
+.new-product-img img:hover {
+  transform: scale(1.1);
 }
 
 /**********************************
